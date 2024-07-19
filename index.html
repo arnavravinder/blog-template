@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="posts">
+            <article class="post" data-aos="fade-up">
+                <img src="https://via.placeholder.com/600x400" alt="Post Image">
+                <h2>Post Title 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula quis leo consequat, sit amet tincidunt ipsum facilisis.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="post" data-aos="fade-up">
+                <img src="https://via.placeholder.com/600x400" alt="Post Image">
+                <h2>Post Title 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula quis leo consequat, sit amet tincidunt ipsum facilisis.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="post" data-aos="fade-up">
+                <img src="https://via.placeholder.com/600x400" alt="Post Image">
+                <h2>Post Title 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula quis leo consequat, sit amet tincidunt ipsum facilisis.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <section class="about" data-aos="fade-up">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet ligula quis leo consequat, sit amet tincidunt ipsum facilisis.</p>
+            </section>
+            <section class="categories" data-aos="fade-up">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                </ul>
+            </section>
+            <section class="recent-posts" data-aos="fade-up">
+                <h2>Recent Posts</h2>
+                <ul>
+                    <li><a href="#">Recent Post 1</a></li>
+                    <li><a href="#">Recent Post 2</a></li>
+                    <li><a href="#">Recent Post 3</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Contact us at info@myblog.com | Follow us on social media</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
